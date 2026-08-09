@@ -13,10 +13,15 @@ If Python/pip is not installed, install **Miniforge** (recommended) or **Anacond
 ### Setup Environment
 Open **Terminal** (macOS) or **Miniforge Prompt** (Windows):
 ```bash
+
+# These commands are run only once
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 conda create -n csci218 python=3.10 jupyter -y
+
+# At the start of each lab, run these commands:
 conda activate csci218
+jupyter notebook
 ```
 
 <details>
