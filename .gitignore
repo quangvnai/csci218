@@ -1,0 +1,33 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python & Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Presentation files
+*.pptx
+
+# Datasets and archives
+flowers/
+**/flowers/
+*.zip
+
+# Legacy & Old files/folders
+old*
+**/old*
+
+*.xlsx
