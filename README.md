@@ -26,8 +26,26 @@ You can use VS Code to run Jupyter notebooks, or run it in the browser with foll
 If Python/pip is not installed, install **Miniforge** (recommended) or **Anaconda**:
 
 * Download installer from [Miniforge (conda-forge)](https://conda-forge.org/download/).
-* <details><summary>🪟 <b>Windows Note (Click to expand)</b></summary>Run the <code>.exe</code> installer and add <code>condabin</code> (e.g., <code>C:\Users\&lt;username&gt;\miniforge3\condabin</code>) to your system Environment Variables.</details>
+* <details><summary>🪟 <b>Windows Note (Click to expand)</b></summary>Run the <code>.exe</code> installer and add <code>condabin</code> (e.g., <code>C:\Users\&lt;username&gt;\miniforge3\condabin</code>) to your system Environment Variables.
 
+
+
+How to add conda to PowerShell PATH on Windows:
+```bash
+$env:USERPROFILE\miniforge3\condabin\conda init powershell
+
+# add to env PATH
+$miniforge = "$env:USERPROFILE\miniforge3"
+[Environment]::SetEnvironmentVariable(
+    "Path",
+    "$miniforge;$miniforge\Scripts;$miniforge\condabin;" +
+    [Environment]::GetEnvironmentVariable("Path", "User"),
+    "User"
+)
+
+# check path
+$env:PATH
+```
 
 Open **Terminal** (macOS) or **Command Prompt/PowerShell** (Windows):
 ```bash
