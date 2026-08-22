@@ -5,7 +5,18 @@ Welcome to the laboratory repository for **CSCI218: Foundations of Artificial In
 ## 📅 Lab Overview
 
 <details>
-<summary><b>📁 Week 3 — K-Nearest Neighbours (KNN) [Click to expand]</b></summary>
+<summary><b>📁 Week 5 — Classification with Neural Networks (MLP & CNN) [Click to expand]</b></summary>
+
+* **Slides**: Available in `Week5/Week5.pdf`
+* **Lab Notebooks**:
+  * `Week5/week5-task1.ipynb`: Task 1 — Image Classification using Multi-Layer Perceptron (MLP with Scikit-Learn & Keras)
+  * `Week5/week5-task2.ipynb`: Task 2 — Image Classification using Convolutional Neural Networks (CNN with Keras)
+* **Dataset**: Uses the flower image dataset in `Week3/flowers/` (or `flowers/`).
+
+</details>
+
+<details>
+<summary>📁 Week 3 — K-Nearest Neighbours (KNN) [Click to expand]</summary>
 
 * **Slides**: Available in `Week3/slides/`
 * **Lab Notebooks**:
@@ -16,10 +27,8 @@ Welcome to the laboratory repository for **CSCI218: Foundations of Artificial In
   2. Download `flowers.zip`.
   3. Unzip `flowers.zip` directly inside the `Week3/` directory (resulting in `Week3/flowers/`).
 
-
-
 </details>
-You can use VS Code to run Jupyter notebooks, or run it in the browser with following setup.
+
 
 ## ⚙️ Environment Setup
 
