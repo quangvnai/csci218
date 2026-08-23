@@ -70,4 +70,14 @@ conda activate csci218
 jupyter notebook
 ```
 
+## Feedback
 
+Provide feedback to help me prepare better lab classes for you in the upcoming weeks. Thank you!
+
+<p align="center">
+  <a href="https://forms.gle/Eg5Y9UtGQ4hmDtzN6">
+    <img src="images/feedback-qr.png" alt="Feedback QR Code" width="200" />
+  </a>
+  <br>
+  <a href="https://forms.gle/Eg5Y9UtGQ4hmDtzN6">https://forms.gle/Eg5Y9UtGQ4hmDtzN6</a>
+</p>
