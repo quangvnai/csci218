@@ -31,3 +31,8 @@ old*
 **/old*
 
 *.xlsx
+
+solutions/
+*.py
+# *.ipynb
+# README.md
