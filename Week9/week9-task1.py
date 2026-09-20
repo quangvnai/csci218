@@ -417,37 +417,6 @@ def main():
     print(f'Path cost: {results.path_cost}')
     print(f'Search the path in: {end - start} (seconds)')
 
-    print('------- Breadth First Tree Search ------\n')
-    start = timer()
-    results = breadth_first_tree_search(problem)
-    end = timer()
-    print(f'Solution: {results.solution()}')
-    print(f'Path cost: {results.path_cost}')
-    print(f'Search the path in: {end - start} (seconds)')
-
-    print('------- Depth First Graph Search -------\n')
-    start = timer()
-    results = depth_first_graph_search(problem)
-    end = timer()
-    print(f'Solution: {results.solution()}')
-    print(f'Path cost: {results.path_cost}')
-    print(f'Search the path in: {end - start} (seconds)')
-
-    print('-------------- A-star ------------------\n')
-    start = timer()
-    results = astar_search(problem, None, True)
-    end = timer()
-    print(f'Solution: {results.solution()}')
-    print(f'Path cost: {results.path_cost}')
-    print(f'Search the path in: {end - start} (seconds)')
-
-    print('--------- Uniform Cost Search ----------\n')
-    start = timer()
-    results = uniform_cost_search(problem, True)
-    end = timer()
-    print(f'Solution: {results.solution()}')
-    print(f'Path cost: {results.path_cost}')
-    print(f'Search the path in: {end - start} (seconds)')
 
 if __name__== "__main__" :
     main()
